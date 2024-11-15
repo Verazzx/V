@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para Free Fire */
+.freefire {
+    background-image: url('https://example.com/freefire.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.freefire td {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Estilos para eFootball */
+.efootball {
+    background-image: url('https://example.com/efootball.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.efootball td {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Estilos para listas */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para ícones */
+td i {
+    font-size: 1.5em;
+    color: #3498db;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 0.9em;
+    }
+}
